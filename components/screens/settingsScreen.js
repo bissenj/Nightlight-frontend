@@ -14,9 +14,9 @@ import React from 'react';
 import { ToastAndroid, StyleSheet, ScrollView, Text, View } from 'react-native';
 
 // Custom UI
-import { RangeSlider } from '../forms/RangeSlider';
-import { ColorPicker } from '../forms/ColorPicker';
-import { ImagePicker } from '../forms/ImagePicker';
+import { RangeSlider } from '../forms/rangeSlider';
+import { ColorPicker } from '../forms/colorPicker';
+import { ImagePicker } from '../forms/imagePicker';
 
 // Controllers
 import { saveUserSetting } from '../../api/fetch';

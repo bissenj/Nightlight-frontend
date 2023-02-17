@@ -13,7 +13,7 @@ import React from 'react';
 import { KeyboardAvoidingView, ImageBackground, StyleSheet, View, Text } from 'react-native';
 
 // Custom Forms
-import Form from '../forms/Form';
+import Form from '../forms/form';
 import { validateContent, validateLength } from '../forms/validation';
 
 // Controllers
