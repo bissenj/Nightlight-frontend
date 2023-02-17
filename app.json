@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Nightlight",
+    "slug": "Nightlight",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/343f0fae-4476-4747-8971-07c8d52b543d"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyA6AKEdqkOwqds5s7Z_HVFl2n4KrkQaa3Y"
+        }
+      },
+      "permissions": [
+        "ACCESS_BACKGROUND_LOCATION",       
+        "ACCESS_FINE_LOCATION"
+      ],
+      "package": "com.aspenpeakstudios.nightlight"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "343f0fae-4476-4747-8971-07c8d52b543d"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
